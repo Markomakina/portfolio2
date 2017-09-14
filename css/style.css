@@ -1,0 +1,56 @@
+body{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 2em;
+}
+#round{
+	border: solid 3px #d9d9d9;
+	border-radius: 50%;
+	height: 150px;
+	width: 150px;
+	margin-top: 50px;
+	margin-right: 0px;
+}
+ul{
+	list-style-type: none;
+}
+#menu{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+li{
+	display: inline;
+	margin-right: 10px;
+	position: relative;
+}
+h1, #me{
+	margin-top: 100px;
+}
+body{
+	background-size: 100%;
+	color: #ffffff;
+}
+a{
+	color: #d9d9d9;
+}
+#work{
+	margin-top: 100px;
+	margin-right: 20px;
+	position: absolute;
+}
+#contact{
+	margin-top: 100px;
+}
+.after{
+	display: none;
+}
+a:hover + .after{
+	display: block;
+	position: absolute;
+}
+.cont{
+	height: 60px;
+	width: 60px;
+	display: block;
+	margin-top: 20px;
+}
